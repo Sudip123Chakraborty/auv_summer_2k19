@@ -107,3 +107,9 @@ if we have to find the min and max of an array we can do it by (n-1)& (n-1) comp
 * we process elements in pairs.  We compare pairs of elements from the inputfirstwith each other, and then we compare the smaller to the current minimum and thelarger to the current maximum, at a cost of 3 comparisons for every 2 elements.
 	* If **n** is **odd**,  we set both the minimum and maximumto the value of the first element
 	* If **n** is **even**, we perform 1 comparison on thefirst 2 elements to determine the initial values of the minimum and maximum, and then process the rest of the elements in pairs
+
+
+## Set Precession([link](https://www.tutorialspoint.com/cpp_standard_library/cpp_setprecisiond.htm) )
+use to make the answer preceously correct .when we deal with **Long int** or **double** we may often get wrong answer for that we should mention **number of significant digits**;
+
+
